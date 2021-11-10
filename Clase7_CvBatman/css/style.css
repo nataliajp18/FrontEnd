@@ -1,0 +1,48 @@
+h1{
+    font-size: 35px;
+    color:#005677;
+    text-align: center;
+    background-color:#C4C4C4;
+    text-transform:uppercase;
+    font-family: 'Times New Roman';
+}
+h2{
+    color:#005677;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.space{
+    height: 100px;
+}
+footer{
+    background-color:#005677;
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    text-align: center;
+}
+.lista1{
+    font-family: 'Times New Roman';
+}
+.lista2{
+    font-family: 'Times New Roman';
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.lista3{
+    font-family: 'Times New Roman';
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
