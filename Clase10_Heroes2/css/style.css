@@ -1,0 +1,95 @@
+*{
+    margin:0%;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section article{
+    position: relative;
+    width: 300px;
+    background-color:#F3F3F3;
+    margin-top: 154px;
+    margin-left: 32px;
+    text-align: center;
+    border-radius: 16px 16px 0px 0px;
+}
+
+section article p{
+    margin-top: 10px;
+    padding: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+}
+
+footer{
+    margin-top: 150px;
+    background-color:#00669F;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 16px;
+    color: #F3F3F3;
+    ;
+}
+header h1{
+    padding: 28px;
+    font-family: Roboto;
+    font-size: 40px;
+    background-color: #00669F;
+    font-weight: 0%;
+}
+
+.superior{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.batman_fondo{
+    position: relative;
+}
+.harley_fondo{
+    position: relative;
+}
+
+.foto_batman{
+    position:absolute;
+    border-radius: 50%;
+    top: 130px;
+    right: 90px;
+}
+
+.foto_harley{
+    position:absolute;
+    border-radius: 50%;
+    top: 130px;
+    right: 90px;
+}
+.corazon{
+    color:red;
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.titulo{
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+button{
+    border: none;
+    padding: 15px 35px 15px 35px;
+    background-color: #00669F;
+    color: white;
+    margin-bottom: 18px;
+}
