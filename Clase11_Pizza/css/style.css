@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.fondo{
+    background-color: #222222;
+}
+
+.logo2{
+    flex-direction:row;
+    align-self: center;
+}
+
+.logo1{
+    flex-direction: row;
+    align-self: center; 
+}
+
+.pizza{
+    display: flex;
+    flex-direction:row;
+    justify-items:normal;
+    align-items: center;
+}
+
+.pizza img{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.enlaces{
+    list-style: none;
+    color:#F3F3F3;
+    align-self:center; 
+    padding-right: 35px;
+}
+
+.enlaces span{
+    margin-right: 13px;
+}
+
+ul{
+    color:#F3F3F3;
+    list-style: none;
+}
+
+
+.caja1{
+    margin-left: 20px;
+    margin-top: 35px;
+    background-image: url("../img/delivery.png");
+    width: 490px;
+    height: 350px;
+    padding-bottom: 35px;
+}
+
+.caja2{
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 490px;
+    height: 350px;
+}
+
+.cajasub2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aviso{
+    padding: 20px;
+}
+
+.letras_rojas{
+    font-size: 24px;
+    font-family: Roboto;
+    color: #FC200C;
+    font-weight: bold;
+}
+
+.letras_blancas{
+    font-size: 24px;
+    font-family: Roboto;
+    color: #F3F3F3;
+    font-weight: bold;
+}
+
+.letras_negras{
+    color: #222222;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.pad{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.cajalogo{
+    display: flex;
+    padding-right: 35px;
+}
